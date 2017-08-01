@@ -1,0 +1,27 @@
+{
+  "name": "errand-message",
+  "version": "0.1.1",
+  "description": "errand component for sending messages",
+  "main": "lib/errand-message.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/errandjs/errand-message.git"
+  },
+  "author": "mattcam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/errandjs/errand-message/issues"
+  },
+  "homepage": "https://github.com/errandjs/errand-message#readme",
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "kue": "^0.11.6",
+    "mongodb": "^2.2.30",
+    "nodemailer": "^4.0.1",
+    "nodemailer-express-handlebars": "^2.0.0",
+    "underscore": "^1.8.3"
+  }
+}
